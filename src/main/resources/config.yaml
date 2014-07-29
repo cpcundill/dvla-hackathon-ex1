@@ -1,1 +1,10 @@
 defaultName: dude
+
+server:
+    applicationConnectors:
+        - type: http
+          port: 8180
+
+    adminConnectors:
+        - type: http
+          port: 8181
